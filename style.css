@@ -54,7 +54,7 @@ body{
 }
 
 .wrapper .pass-indicator{
-    width: 100px;
+    width: 100%;
     height: 4px;
     position: relative;
     background-color: #dfdfdf;
@@ -83,4 +83,43 @@ body{
 .pass-length input{
     width: 100%;
     height: 5px;
+}
+
+.pass-settings .options{
+    display: flex;
+    list-style: none;
+    flex-wrap: none;
+    margin-top: 1rem;
+
+}
+
+.pass-settings .options .option{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100%/2);
+}
+
+.options .option input{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.options .option label{
+    cursor: pointer;
+    padding-left: 0.63rem;
+}
+
+.wrapper .generate-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4285F4;
+    font-size: 1.06rem;
+    padding: 0.94rem 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: .94rem 0 1.3rem;
 }
